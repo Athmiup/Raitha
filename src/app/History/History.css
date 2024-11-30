@@ -1,0 +1,42 @@
+/* History.css */
+
+/* Container Styling */
+.history-container {
+    padding: 20px;
+    background-color: #f8fdf7; /* Light green background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.1);
+  }
+  
+  /* Card Styling */
+  .history-card {
+    border: 1px solid #008000; /* Green border */
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for contrast */
+  }
+  
+  /* Item List Styling */
+  .history-item {
+    border: none;
+    background-color: #e9f7e9; /* Very light green background */
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Text Styling */
+  .text-green {
+    color: #008000; /* Green text */
+  }
+  
+  .total-price {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Empty State Message */
+  .text-center.text-green {
+    color: #008000;
+    font-weight: bold;
+  }
+  

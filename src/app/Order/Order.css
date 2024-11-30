@@ -1,0 +1,163 @@
+/* General container styling */
+.container2 {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #e7ffed;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom:30px;
+    margin-top:20px;
+    font-family: "Roboto", Arial, sans-serif;
+  }
+  
+  /* Heading styling */
+  .container2 h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Input fields styling */
+  .container2 input {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Label styling */
+  .container2 label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  /* Search button styling */
+  .container2 button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #00ff43;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .container2 button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Disabled button styling */
+  .container2 button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Error message styling */
+  .container2 p {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Table styling */
+  .container2 table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Adds space between rows */
+    margin-top: 20px;
+  }
+  
+  /* Table header styling */
+  .container2 th {
+    background-color: #4ab069;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px 8px 0 0; /* Rounded corners for the header */
+  }
+  
+  /* Table row styling */
+  .container2 td {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #9bf2a2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Alternate row background for better readability */
+  .container2 tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect for table rows */
+  .container2 tr:hover td {
+    background-color: #e6f7ff;
+  }
+  
+  /* Responsive styling for smaller devices */
+  @media (max-width: 768px) {
+    .container2 {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .container2 h2 {
+      font-size: 20px;
+    }
+  
+    .container2 input {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .container2 button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .container2 table {
+      font-size: 12px;
+    }
+  
+    .container2 td, .container th {
+      padding: 8px;
+    }
+  }
+  
+  /* Extra small devices (mobile phones) */
+  @media (max-width: 480px) {
+    .container2 h2 {
+      font-size: 18px;
+    }
+  
+    .container2 input {
+      font-size: 12px;
+    }
+  
+    .container2 button {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .container2 td, .container th {
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+  

@@ -1,0 +1,85 @@
+/* FarmerForm.module.css */
+.farmerForm {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.farmerForm h1 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.farmerForm .form-control {
+  border-radius: 5px;
+}
+
+.farmerForm .alert {
+  margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.produceField {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.produceField input {
+  flex: 1;
+}
+
+.produceField .removeBtn {
+  align-self: flex-end;
+}
+
+.farmerCards {
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.actionBtn {
+  width: 45%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .actionBtn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .produceField {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .farmerForm {
+    padding: 10px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+}

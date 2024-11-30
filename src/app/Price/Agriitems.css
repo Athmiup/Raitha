@@ -1,0 +1,27 @@
+/* Agriitems.css */
+
+.agri-gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    /* background-color:  #f3a621d1; */
+    padding: 10px;
+  
+}
+
+.agri-gridcontainer > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-radius: 5px;
+    color: brown;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .agri-gridcontainer {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

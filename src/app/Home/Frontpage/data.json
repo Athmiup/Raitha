@@ -1,0 +1,328 @@
+{
+    "fruits": [
+      {
+        "id": 1,
+        "title": "fresho!",
+        "productName": "Banana - Robusta",
+        "image": "https://images.unsplash.com/photo-1513563401345-1123a773541c?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       
+        "originalPrice":100,
+        "discount": 27,
+        "description": "Fresh bananas, perfect for your daily dose of nutrients.",
+        "percentageLikes":80,
+        "contactNumber":"7898546776"
+        
+      },
+      {
+        "id": 2,
+        "title": "Organic Delights",
+        "productName": "Cherry",
+        "image": "https://images.unsplash.com/photo-1439127989242-c3749a012eac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 150,
+        "discount": 20,
+        "description": "Crisp and sweet Fuji apples for a healthy snack.",
+        "percentageLikes":70,
+        "contactNumber":"8889654123"
+      },
+      {
+        "id": 3,
+        "title": "fresho!",
+        "productName": "Blue - Berry",
+        "image": "https://images.unsplash.com/photo-1457296898342-cdd24585d095?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 63.01,
+        "discount": 9,
+        "description": "Fresh bananas, perfect for your daily dose of nutrients.",
+        "percentageLikes":50,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id": 4,
+        "title": "fresho!",
+        "productName": "Kashmiri - Apple",
+        "image": "https://images.unsplash.com/photo-1476837579993-f1d3948f17c2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 200,
+        "discount": 18,
+        "description": "Fresh bananas, perfect for your daily dose of nutrients.",
+        "percentageLikes":90,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id": 5,
+        "title": "fresho!",
+        "productName": "Fresh-Pinapple",
+        "image": "https://images.unsplash.com/photo-1517260911058-0fcfd733702f?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 63.01,
+        "discount": 15,
+        "description": "Fresh bananas, perfect for your daily dose of nutrients.",
+        "percentageLikes":100,
+        "contactNumber":"9854623176"
+      },
+      {
+        "id": 6,
+        "title": "fresho!",
+        "productName": "Water - Melon",
+        "image": "https://media.istockphoto.com/id/1142119394/photo/whole-and-slices-watermelon-fruit-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=AJ0EwGZ4BLaZ-gXCiiUDxchzYKk0KgkGLwCNk6HsOa4=",
+        
+        "originalPrice":30,
+        "discount": 27,
+        "description": "Fresh bananas, perfect for your daily dose of nutrients.",
+        "percentageLikes":90,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id": 7,
+        "title": "fresho!",
+        "productName": "Fresh - Orange",
+        "image": "https://media.istockphoto.com/id/899238622/photo/tangerine-fruits.jpg?s=2048x2048&w=is&k=20&c=rqUa7oJWvdRrRMeNl0mHAyp-k9XFvrtm6scHSKDVJKE=",
+        
+        "originalPrice":180,
+        "discount":11,
+        "description": "Fresh bananas, perfect for your daily dose of nutrients.",
+        "percentageLikes":76,
+        "contactNumber":"8889654123"
+      },
+      {
+        "id": 8,
+        "title": "fresho!",
+        "productName": "Banana - Robusta",
+        "image": "https://images.unsplash.com/photo-1513563401345-1123a773541c?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 100,
+        "discount": 40,
+        "description": "Fresh bananas, perfect for your daily dose of nutrients.",
+        "percentageLikes":78,
+        "contactNumber":"9854623176"
+      }
+    ],
+    "vegetables": [
+      {
+        "id": 1,
+        "title": "Farm Fresh",
+        "productName": "Tomato",
+        "image": "https://media.istockphoto.com/id/171579643/photo/tomato-greenhouse.jpg?s=2048x2048&w=is&k=20&c=kRQ9VHFQ-trs31gG1zHFRRPghnfSkI_ZxxF8G6GbM_A=",
+        
+        "originalPrice": 50,
+        "discount": 20,
+        "description": "Crunchy carrots for your healthy meals.",
+        "percentageLikes":87,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id": 2,
+        "title": "Nature's Gift",
+        "productName": "Potato",
+        "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 30,
+        "discount":23,
+        "description": "Fresh and green spinach leaves.",
+        "percentageLikes":78,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id": 3,
+        "title": "Farm Fresh",
+        "productName": "Brinjal",
+        "image": "https://media.istockphoto.com/id/1328668312/photo/whole-eggplant-on-wooden-background.jpg?s=2048x2048&w=is&k=20&c=fC7fXaka1VP0NXFTTzRNtPwLRFmfB-xdPE73MYbqsIE=",
+        
+        "originalPrice": 50,
+        "discount": 30,
+        "description": "Crunchy carrots for your healthy meals.",
+        "percentageLikes":94,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id": 4,
+        "title": "Nature's Gift",
+        "productName": "Onion",
+        "image": "https://media.istockphoto.com/id/1181631588/photo/onions-for-sale-in-the-weekly-market-malkapur-maharashtra.jpg?s=2048x2048&w=is&k=20&c=fw6SBQy6IxGL3Z20iQ3_aoQ9mvrm7PgZjYf9bn2eIoo=",
+        
+        "originalPrice": 30,
+        "discount": 33,
+        "description": "Fresh and green spinach leaves.",
+        "percentageLikes":87,
+        "contactNumber":"8889654123"
+      },
+      {
+        "id": 5,
+        "title": "Farm Fresh",
+        "productName": "Coriander",
+        "image": "https://media.istockphoto.com/id/157478045/photo/cilantro.jpg?s=2048x2048&w=is&k=20&c=f7qsYok96AIZU6Km-_nNkokt9KP-ZxOXBsvTxeEllgA=",
+        
+        "originalPrice": 50,
+        "discount": 20,
+        "description": "Crunchy carrots for your healthy meals.",
+        "percentageLikes":89,
+        "contactNumber":"8889654123"
+      },
+      {
+        "id": 6,
+        "title": "Nature's Gift",
+        "productName": "Spinach",
+        "image": "https://images.unsplash.com/photo-1634731201932-9bd92839bea2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 30,
+        "discount": 43,
+        "description": "Fresh and green spinach leaves.",
+        "percentageLikes":75,
+        "contactNumber":"9854623176"
+      }
+    ],
+    "pules": [
+      {
+        "id": 1,
+        "title": "Farm Fresh",
+        "productName": "Pea",
+        "image": "https://media.istockphoto.com/id/692622154/photo/green-peas.jpg?s=2048x2048&w=is&k=20&c=YxuhjWp2XMIY2cB9Mk2LHGrMkK_QPtAyTX6tDNhv2Ew=",
+        
+        "originalPrice": 50,
+        "discount": 37,
+        "description": "Crunchy carrots for your healthy meals.",
+        "percentageLikes":89,
+        "contactNumber":"8889654123"
+      },
+      {
+        "id": 2,
+        "title": "Nature's Gift",
+        "productName": "Pea - Nut",
+        "image": "https://media.istockphoto.com/id/901604938/photo/chickpea-natural-dry-pea-healthy-food-ingredient.jpg?s=2048x2048&w=is&k=20&c=59D-YOLYWuhMZSBntlOinZl2UndpB8fnjcJUdaQh7x8=",
+        
+        "originalPrice": 30,
+        "discount": 47,
+        "description": "Fresh and green spinach leaves.",
+        "percentageLikes": 64,
+        "contactNumber":"8889654123"
+      },
+      {
+        "id": 3,
+        "title": "Farm Fresh",
+        "productName": "Black Gram",
+        "image": "https://media.istockphoto.com/id/1158693674/photo/dry-organic-murad-split-matpe-beans.jpg?s=2048x2048&w=is&k=20&c=GlYEDp8Uoe2IswnOCDGF8aSQr8445KeRHfxFSXDgHww=",
+        
+        "originalPrice": 130,
+        "discount": 26,
+        "description": "Crunchy carrots for your healthy meals.",
+        "percentageLikes": 98,
+        "contactNumber":"8754446589"
+      },
+      {
+        "id": 4,
+        "title": "Nature's Gift",
+        "productName": "Dal",
+        "image": "https://plus.unsplash.com/premium_photo-1674025748666-9ac6c8a7ab3d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 200,
+        "discount": 37,
+        "description": "Fresh and green spinach leaves.",
+        "percentageLikes":68,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id": 5,
+        "title": "Farm Fresh",
+        "productName": "White Gram",
+        "image": "https://images.unsplash.com/photo-1635843095815-7c85a923e734?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        
+        "originalPrice": 200,
+        "discount": 30,
+        "description": "Crunchy carrots for your healthy meals.",
+        "percentageLikes": 98,
+        "contactNumber":"8854697556"
+      },
+      {
+        "id": 6,
+        "title": "Nature's Gift",
+        "productName": "Green Gram",
+        "image": "https://images.unsplash.com/photo-1600190909161-44abaa7d45f8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       
+        "originalPrice": 190,
+        "discount": 23,
+        "description": "Fresh and green spinach leaves.",
+        "percentageLikes": 87,
+        "contactNumber":"9854623176"
+      }
+    ],
+    "dairy":[
+      {
+        "id":1,
+        "image":"https://as1.ftcdn.net/v2/jpg/03/72/07/74/1000_F_372077496_yvm9A7RYLJt7A9yuMCc8je64HxrwSpeG.jpg",
+        "description":"Fresh Milk",
+        "productName":"Milk",
+        "price":40,
+        "contactNumber":"9854623176"
+      },
+      {
+        "id":2,
+        "image":"https://as2.ftcdn.net/v2/jpg/01/11/21/15/1000_F_111211545_YAiq0feOBTi1WXYIGcEGKWf0tRrfGpRe.jpg",
+        "description":"Butter..",
+        "productName":"Butter",
+        "price":200,
+        "contactNumber":"9854623176"
+      },
+      {
+        "id":3,
+        "image":"https://as1.ftcdn.net/v2/jpg/06/75/97/60/1000_F_675976062_GY6Ors7lDdKU4JgG1kGW9ajfvBc2iHKq.jpg",
+        "description":"Ghee",
+        "productName":"Ghee",
+        "price":400,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id":4,
+        "image":"https://as1.ftcdn.net/v2/jpg/07/62/28/06/1000_F_762280675_hCNaE3R32lLuaWACS8Kl6G1Xj0mr2IUA.jpg",
+        "description":"buffalo Milk",
+        "productName":"buffalo Milk",
+        "price":60,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id":5,
+        "image":"https://as1.ftcdn.net/v2/jpg/08/73/44/86/1000_F_873448626_rKe06Xh7uGCNQPSrftw3QxV4kII2PQ8k.jpg",
+        "description":"Caurd Milk",
+        "productName":"Caurd Milk",
+        "price":50,
+        "contactNumber":"8889654123"
+      }
+
+    ],
+
+    "stample":[
+      {
+        "id":1,
+        "image":"https://as2.ftcdn.net/v2/jpg/07/48/27/71/1000_F_748277105_hEcKiPq10tJmrEz2Rm7mVQ0fkeacvbyU.webp",
+        "description":"White Raice",
+        "productName":"White Raice",
+        "price":40,
+        "contactNumber":"9854623176"
+      },
+      {
+        "id":2,
+        "image":"https://as2.ftcdn.net/v2/jpg/09/77/79/01/1000_F_977790173_mdLdabcvSlnt7u0Hb6Jna1Q43wTWXK2f.jpg",
+        "description":"Whole Wheat",
+        "productName":"Whole Wheat",
+        "price":80,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id":3,
+        "image":"https://as1.ftcdn.net/v2/jpg/02/12/60/46/1000_F_212604601_ZK02M0XFc8arlw9SangYYZ6iOh57pbsF.jpg",
+        "description":"Basumathi",
+        "productName":"Basumathi",
+        "price":70,
+        "contactNumber":"7898546776"
+      },
+      {
+        "id":4,
+        "image":"https://as2.ftcdn.net/v2/jpg/03/67/10/43/1000_F_367104359_o7UNhUS4wQSZKgjleqH8oSBemKraF5lt.jpg",
+        "description":"Brown Raice",
+        "productName":"Brown Raice",
+        "price":60,
+        "contactNumber":"7898546776"
+      }
+    ]
+  }
+  

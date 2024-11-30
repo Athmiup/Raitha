@@ -1,0 +1,33 @@
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    background-color:#59fb97ee;
+    padding: 10px;
+}
+
+.grid-container1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-radius: 5px;
+    color: rgb(165, 144, 42);
+    
+    
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 40px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

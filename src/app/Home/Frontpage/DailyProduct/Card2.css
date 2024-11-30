@@ -1,0 +1,31 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 cards per row */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .card-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    }
+  }
+  @media (max-width: 912px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-container {
+      grid-template-columns: 1fr; /* 1 card per row */
+    }
+  }
+  

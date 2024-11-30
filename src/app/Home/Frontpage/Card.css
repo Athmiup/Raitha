@@ -1,0 +1,64 @@
+/* Card container styles */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Reduced gap for better fit */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.card-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+}
+
+/* Individual card styles */
+.card {
+  flex: 0 0 calc(22% - 10px); /* Default size for large screens */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Image inside the card */
+.card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1.5; /* Maintain consistent aspect ratio for images */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .card {
+    flex: 0 0 calc(25% - 10px); /* Four cards per row for desktops */
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    flex: 0 0 calc(33.33% - 10px); /* Three cards per row for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 10px); /* Two cards per row for medium-sized devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 0 calc(100% - 10px); /* Full-width card for very small devices */
+    margin: 0 auto; /* Center the card on very small screens */
+  }
+
+  .card img {
+    aspect-ratio: 1.3; /* Slightly reduce image height for small screens */
+  }
+}

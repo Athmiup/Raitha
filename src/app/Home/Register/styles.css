@@ -1,0 +1,122 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b5323; /* Deep earthy green */
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #6b8e23, #4b6f15); /* Gradient in deep green tones */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #4b6f15, #3d5c11); /* Darker gradient on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.social-login {
+    margin-top: 1rem;
+}
+
+.social-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.social-button.google {
+    background-color: #c94c4c; /* Earthy red for Google button */
+}
+
+.social-button.facebook {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.social-button:hover {
+    opacity: 0.9;
+}
+
+.forgot-password {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.switch-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    font-size: 16px;
+    color: #6b8e23; /* Earthy green */
+    background-color: #f0efe6; /* Light tan background */
+    border: 2px solid #6b8e23;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.switch-button:hover {
+    background-color: #e2e6da; /* Slightly darker tan */
+    color: #4b6f15; /* Darker green */
+    transform: translateY(-2px);
+}

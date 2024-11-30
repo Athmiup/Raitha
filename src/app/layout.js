@@ -1,6 +1,9 @@
+
 import localFont from "next/font/local";
 import "./globals.css";
-
+import 'bootstrap/dist/css/bootstrap.css'
+import Nevbar from './Nevbar';
+import { UserProvider } from './UserContext';
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -18,10 +21,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <UserProvider>
+          {/* Global Navbar */}
+          <main>{children}</main> {/* Main content for all pages */}
+        </UserProvider>
       </body>
     </html>
   );

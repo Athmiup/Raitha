@@ -1,0 +1,41 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #fafaf8;
+}
+.App.container{
+    background-color:#eafbea;
+    max-width: 100%;
+    display: flex;
+     padding: 10px;
+    margin: 0 auto;
+}
+.custom-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-img-top {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.custom-card {
+    background-color: rgb(107, 128, 0); 
+    color: white;
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.custom-button {
+    background-color: red;
+    border-color: red;
+}

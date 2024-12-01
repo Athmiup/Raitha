@@ -107,11 +107,7 @@ const Nevbar = () => {
                     Farmer Details
                   </Link>
                 </li>
-                <li>
-                  <Link href="/Desiese"  className="dropdown-item">
-                    Disease
-                  </Link>
-                </li>
+               
                 <li>
                   <hr className="dropdown-divider" />
                 </li>

@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-     // Replace with your repository name
+    output: "export"
+    // basePath: "/Raithapi", // Match your repository name
+    // assetPrefix: "/Raithapi/",
   };
   
   export default nextConfig;

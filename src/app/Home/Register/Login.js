@@ -9,7 +9,7 @@ const LoginPage = ({setLogin}) => {
   const { user, setUser, check, setcheck } = useUser();
   // const [state,setState]=useState(false);
   const handleLogin = async () => {
-    try {
+    try {  
       const response = await fetch('http://localhost:5000/api/auth/login', { // Update URL if necessary
         method: 'POST',
         headers: {

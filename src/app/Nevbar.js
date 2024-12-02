@@ -11,15 +11,23 @@ const Nevbar = () => {
   const { user, setUser, setcheck } = useUser() || {}; // Fallback for user context
 
   const [error, setError] = useState("");
-  const [isMobile, setIsMobile] = useState(window ? window.innerWidth < 1000:false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // Check if window is defined before using it
     if (typeof window !== "undefined") {
       const handleResize = () => setIsMobile(window.innerWidth < 1000);
+      
+      // Set initial state when component mounts on the client-side
+      setIsMobile(window.innerWidth < 1000);
+
+      // Add event listener for resize events
       window.addEventListener('resize', handleResize);
+
+      // Clean up the event listener on component unmount
       return () => window.removeEventListener('resize', handleResize);
     }
-  }, []);
+  }, [])
 
   const avatarStyle = {
     marginRight: isMobile ? '-110px' : '0px', // For screens smaller than 1000px, width becomes 50px, else 40px

@@ -3,26 +3,28 @@
 import React from 'react';
 // import { useState, useEffect } from "react";
 import { useUser } from './UserContext';
-import { useState , useEffect} from "react";
+import { useState, useEffect } from "react";
 import Link from 'next/link';
 
 
 const Nevbar = () => {
-  const {user,setUser,setcheck} = useUser() || {}; // Fallback for user context
+  const { user, setUser, setcheck } = useUser() || {}; // Fallback for user context
 
   const [error, setError] = useState("");
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 1000);
+  const [isMobile, setIsMobile] = useState(window ? window.innerWidth < 1000:false);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 1000);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    if (typeof window !== "undefined") {
+      const handleResize = () => setIsMobile(window.innerWidth < 1000);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }
   }, []);
 
   const avatarStyle = {
     marginRight: isMobile ? '-110px' : '0px', // For screens smaller than 1000px, width becomes 50px, else 40px
-     // Similar adjustment for height
-     backgroundColor:'rgb(209 255 221)',
+    // Similar adjustment for height
+    backgroundColor: 'rgb(209 255 221)',
     objectFit: 'cover',
     cursor: 'pointer',
   };
@@ -43,7 +45,7 @@ const Nevbar = () => {
       setUser(null);
       setcheck(false);
       alert("Profile deleted successfully.");
-      
+
     } catch (err) {
       console.error("Error deleting farmer profile:", err);
       setError("An error occurred while deleting the profile.");
@@ -85,7 +87,7 @@ const Nevbar = () => {
             </li>
             <li className="nav-item">
               <Link href="/Order" className="nav-link">
-              Order
+                Order
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -107,7 +109,7 @@ const Nevbar = () => {
                     Farmer Details
                   </Link>
                 </li>
-               
+
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
@@ -148,7 +150,7 @@ const Nevbar = () => {
               <ul
                 className="dropdown-menu dropdown-menu-end"
                 aria-labelledby="accountDropdown"
-                
+
                 style={avatarStyle}
               >
                 {user ? (
@@ -172,9 +174,9 @@ const Nevbar = () => {
                       <hr className="dropdown-divider" />
                     </li>
                     <li className="dropdown-item" onClick={handleDelete}>
-                     
-                        Logout
-                      
+
+                      Logout
+
                     </li>
                   </div>
                 ) : (

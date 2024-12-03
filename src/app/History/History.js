@@ -12,7 +12,7 @@ const History = () => {
     const fetchOrderHistory = async () => {
       if (!user?.username) return;
       try {
-        const response = await fetch(`http://localhost:5000/api/item/orders?userName=${user.username}`);
+        const response = await fetch(`https://backendraithapi.onrender.com/api/item/orders?userName=${user.username}`);
         const data = await response.json();
         setOrderHistory(data);
       } catch (error) {

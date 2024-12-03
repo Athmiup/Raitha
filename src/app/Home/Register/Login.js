@@ -10,7 +10,7 @@ const LoginPage = ({setLogin}) => {
   // const [state,setState]=useState(false);
   const handleLogin = async () => {
     try {  
-      const response = await fetch('http://localhost:5000/api/auth/login', { // Update URL if necessary
+      const response = await fetch('https://backendraithapi.onrender.com/api/auth/login', { // Update URL if necessary
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

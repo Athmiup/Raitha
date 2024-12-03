@@ -39,7 +39,7 @@ const Nevbar = () => {
   const handleDelete = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/auth/deleteuser?username=${user.username}`,
+        `https://backendraithapi.onrender.com/api/auth/deleteuser?username=${user.username}`,
         {
           method: "DELETE",
         }

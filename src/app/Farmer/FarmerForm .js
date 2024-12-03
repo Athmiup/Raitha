@@ -50,7 +50,7 @@ const FarmerForm = ({setad}) => {
 
 
     try {
-      const response = await fetch("http://localhost:5000/api/farmers/add", {
+      const response = await fetch("https://backendraithapi.onrender.com/api/farmers/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -28,7 +28,7 @@ const FarmerGet = ({ setad }) => {
 
       try {
         const response = await fetch(
-          `http://localhost:5000/api/farmers/detail?name=${user.username}`
+          `https://backendraithapi.onrender.com/api/farmers/detail?name=${user.username}`
         );
 
         if (!response.ok) {
@@ -72,7 +72,7 @@ const FarmerGet = ({ setad }) => {
   const handleDelete = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/farmers/delete?name=${user.username}`,
+        `https://backendraithapi.onrender.com/api/farmers/delete?name=${user.username}`,
         {
           method: "DELETE",
         }
@@ -95,7 +95,7 @@ const FarmerGet = ({ setad }) => {
   const handleUpdate = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/farmers/update?name=${user.username}`,
+        `https://backendraithapi.onrender.com/api/farmers/update?name=${user.username}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },

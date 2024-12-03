@@ -24,7 +24,7 @@ const Order = () => {
       });
 
       const response = await fetch(
-        `http://localhost:5000/api/farmers/search?${query.toString()}`
+        `https://backendraithapi.onrender.com/api/farmers/search?${query.toString()}`
       );
 
       if (!response.ok) {

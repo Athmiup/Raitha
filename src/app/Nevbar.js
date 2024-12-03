@@ -119,6 +119,12 @@ const Nevbar = () => {
                 </li>
 
                 <li>
+                  <Link href="/Disease" className="dropdown-item">
+                    Disease
+                  </Link>
+                </li>
+
+                <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>

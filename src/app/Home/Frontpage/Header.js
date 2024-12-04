@@ -20,9 +20,9 @@ export default function Header() {
        <h3 style={{textAlign: "center" }}>Pulses</h3>
       <Pules pules={products.pules}/>
  
-     <h3 style={{marginLeft:"215px",marginBottom:"-50px"}}>Dairy Product</h3>
+     <h3 style={{textAlign: "center" }}>Dairy Product</h3>
       <Dairy dairy={products.dairy}/>
-      <h3 style={{marginLeft:"215px",marginBottom:"-50px"}}>Raice And Wheat</h3>
+      <h3 style={{textAlign: "center" }}>Raice And Wheat</h3>
       <Stample stample={products.stample}/> 
       <Caursole/> 
       <br></br>

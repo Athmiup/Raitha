@@ -1,0 +1,22 @@
+/* Card container styles */
+.item-scroll-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Reduced gap for better fit */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    position: relative;
+    
+    
+  }
+  
+  .item-scroll-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+  }
+  
+  /* Individual card styles */
+  
+  
+  
+  

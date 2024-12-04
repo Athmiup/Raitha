@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Card from "../Card.js";
-import "../Card.css";
+import "./test.css";
 
 export default function Vegetables({ vegetables }) {
   const containerRef = useRef(null);
@@ -43,7 +43,7 @@ export default function Vegetables({ vegetables }) {
         </button>
       </div>
       <div
-        className="card-container"
+        className="item-scroll-wrapper"
         ref={containerRef}
         style={{
           display: "flex",
